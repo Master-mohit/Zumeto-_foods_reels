@@ -1,6 +1,8 @@
 const userModel = require('../models/user.model');
+const foodPartnerModel = require('../models/foodPatner.model')
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+const { json } = require('express');
 
 async function registerUser(req, res) {
     const {fullName, email, password} = req.body;
@@ -21,7 +23,6 @@ async function registerUser(req, res) {
         email,
         password: hashPassward
     })
-
 
     const token = jwt.sign({
         id: user._id,
@@ -73,8 +74,6 @@ async function logdinUser(req, res){
             fullName: user.fullName
         }
     })
-
-
 }
 
 
@@ -85,8 +84,98 @@ function logoutUser(req, res){
      });
 }
 
+
+async function registerfoodpartner(req, res){
+     const{name, email, password} = req.body
+
+     const IsAccontAlreadyExist = await foodPartnerModel.findOne({
+        email
+     })
+
+     if(IsAccontAlreadyExist){
+       return res.status(400).json({
+            message: "Account Already Exist"
+        })
+     }
+
+     const hasedpassword = await bcrypt.hash(password, 10);
+
+     const foodPartner = await foodPartnerModel.create({
+         name,
+         email,
+         password: hasedpassword
+     })
+
+     const token = jwt.sign({
+        id: foodPartner._id,
+
+     }, process.env.JWT_SECRET);
+
+     res.cookie("token", token)
+
+     res.status(201).json({
+        message: "Food Partner registered successfully",
+        foodPartner: {
+           _id : foodPartner._id,
+           email: foodPartner.email,
+            name: foodPartner.name
+        }
+     })
+}
+
+
+async function foodPartnerLogdin(req, res){
+   const{email, password} = req.body
+
+   const foodpartnerLoginuser = await foodPartnerModel.findOne({
+      email
+   })
+
+   if(!foodpartnerLoginuser){
+    res.status(400).json({
+       message: "Invalid email and password please try again"
+    })
+   }
+
+   const hashedpassword = await bcrypt.compare(password, foodpartnerLoginuser.password)
+
+   if(!hashedpassword){
+    res.status(400).json({
+        message: "Invalid email and password please try again"
+    })
+   }
+
+   const token = jwt.sign({
+      id: foodpartnerLoginuser._id
+   }, process.env.JWT_SECRET)
+    res.cookie("token", token)
+    res.status(400).json({
+       message: "FoodPartner logdin successfully",
+        foodpartnerLoginuser: {
+            _id: foodpartnerLoginuser._id,
+            email: foodpartnerLoginuser.email,
+            name: foodpartnerLoginuser.name
+        }
+    })
+
+}
+
+
+function foodPartnerLogout(req, res){
+    res.clearCookie("token");
+     res.status(201).json({
+        message: "FoodPartner logout successfully"
+     });
+}
+    
+
 module.exports = {
   registerUser,
   logdinUser,
-  logoutUser
-}
+  logoutUser,
+  registerfoodpartner,
+  foodPartnerLogdin,
+  foodPartnerLogout
+
+
+}   

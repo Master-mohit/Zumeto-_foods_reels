@@ -12,5 +12,6 @@ app.get('/', (req, res) => {
 })
 
 app.use('/api', authRoute);
+app.use('/foodpartner',authRoute);
 
 module.exports = app;
