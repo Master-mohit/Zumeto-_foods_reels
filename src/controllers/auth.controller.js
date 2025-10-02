@@ -108,7 +108,6 @@ async function registerfoodpartner(req, res){
 
      const token = jwt.sign({
         id: foodPartner._id,
-
      }, process.env.JWT_SECRET);
 
      res.cookie("token", token)
@@ -148,7 +147,9 @@ async function foodPartnerLogdin(req, res){
    const token = jwt.sign({
       id: foodpartnerLoginuser._id
    }, process.env.JWT_SECRET)
+
     res.cookie("token", token)
+
     res.status(400).json({
        message: "FoodPartner logdin successfully",
         foodpartnerLoginuser: {
@@ -167,7 +168,7 @@ function foodPartnerLogout(req, res){
         message: "FoodPartner logout successfully"
      });
 }
-    
+
 
 module.exports = {
   registerUser,
