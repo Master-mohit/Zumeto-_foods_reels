@@ -4,6 +4,9 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { json } = require('express');
 
+
+
+
 async function registerUser(req, res) {
     const {fullName, email, password} = req.body;
 
@@ -83,6 +86,7 @@ function logoutUser(req, res){
         message: "User logout successfully"
      });
 }
+
 
 
 async function registerfoodpartner(req, res){
@@ -168,6 +172,14 @@ function foodPartnerLogout(req, res){
         message: "FoodPartner logout successfully"
      });
 }
+
+
+
+
+
+
+
+
 
 
 module.exports = {

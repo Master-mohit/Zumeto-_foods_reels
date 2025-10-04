@@ -1,0 +1,1108 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Users\\mohit\\Desktop\\Zemuto-food\\backend\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--package-lock-only'
+1 verbose cli ]
+2 info using npm@2.15.12
+3 info using node@v20.11.0
+4 verbose readDependencies loading dependencies from c:\Users\mohit\Desktop\Zemuto-food\backend\package.json
+5 warn package.json backend@1.0.0 No repository field.
+6 verbose install where, deps [
+6 verbose install   'c:\\Users\\mohit\\Desktop\\Zemuto-food\\backend',
+6 verbose install   [
+6 verbose install     'bcrypt',
+6 verbose install     'bcryptjs',
+6 verbose install     'cookie-parser',
+6 verbose install     'dotenv',
+6 verbose install     'express',
+6 verbose install     'jsonwebtoken',
+6 verbose install     'latest',
+6 verbose install     'mongoose',
+6 verbose install     'multer',
+6 verbose install     'uuid'
+6 verbose install   ]
+6 verbose install ]
+7 verbose install where, peers [ 'c:\\Users\\mohit\\Desktop\\Zemuto-food\\backend', [] ]
+8 verbose installManyTop reading for lifecycle c:\Users\mohit\Desktop\Zemuto-food\backend\package.json
+9 info preinstall backend@1.0.0
+10 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\accepts\package.json
+11 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\append-field\package.json
+12 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\bcrypt\package.json
+13 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\bcryptjs\package.json
+14 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\body-parser\package.json
+15 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\bson\package.json
+16 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\buffer-equal-constant-time\package.json
+17 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\buffer-from\package.json
+18 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\busboy\package.json
+19 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\bytes\package.json
+20 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\call-bind-apply-helpers\package.json
+21 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\call-bound\package.json
+22 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\concat-stream\package.json
+23 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\content-disposition\package.json
+24 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\content-type\package.json
+25 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\cookie\package.json
+26 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\cookie-parser\package.json
+27 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\cookie-signature\package.json
+28 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\debug\package.json
+29 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\depd\package.json
+30 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\dotenv\package.json
+31 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\dunder-proto\package.json
+32 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\ecdsa-sig-formatter\package.json
+33 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\ee-first\package.json
+34 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\encodeurl\package.json
+35 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\es-define-property\package.json
+36 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\es-errors\package.json
+37 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\es-object-atoms\package.json
+38 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\escape-html\package.json
+39 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\etag\package.json
+40 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\express\package.json
+41 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\finalhandler\package.json
+42 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\forwarded\package.json
+43 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\fresh\package.json
+44 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\function-bind\package.json
+45 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\get-intrinsic\package.json
+46 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\get-proto\package.json
+47 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\gopd\package.json
+48 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\has-symbols\package.json
+49 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\hasown\package.json
+50 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\http-errors\package.json
+51 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\iconv-lite\package.json
+52 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\inherits\package.json
+53 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\ipaddr.js\package.json
+54 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\is-promise\package.json
+55 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\jsonwebtoken\package.json
+56 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\jwa\package.json
+57 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\jws\package.json
+58 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\kareem\package.json
+59 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\latest\package.json
+60 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.includes\package.json
+61 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isboolean\package.json
+62 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isinteger\package.json
+63 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isnumber\package.json
+64 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isplainobject\package.json
+65 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isstring\package.json
+66 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.once\package.json
+67 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\math-intrinsics\package.json
+68 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\media-typer\package.json
+69 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\memory-pager\package.json
+70 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\merge-descriptors\package.json
+71 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mime-db\package.json
+72 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mime-types\package.json
+73 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\minimist\package.json
+74 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mkdirp\package.json
+75 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mongodb\package.json
+76 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mongodb-connection-string-url\package.json
+77 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mongoose\package.json
+78 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mpath\package.json
+79 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mquery\package.json
+80 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\ms\package.json
+81 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\multer\package.json
+82 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\negotiator\package.json
+83 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\node-addon-api\package.json
+84 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\node-gyp-build\package.json
+85 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\npm\package.json
+86 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\object-assign\package.json
+87 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\object-inspect\package.json
+88 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\on-finished\package.json
+89 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\once\package.json
+90 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\parseurl\package.json
+91 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\path-to-regexp\package.json
+92 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\proxy-addr\package.json
+93 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\punycode\package.json
+94 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\qs\package.json
+95 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\range-parser\package.json
+96 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\raw-body\package.json
+97 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\readable-stream\package.json
+98 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\router\package.json
+99 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\safe-buffer\package.json
+100 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\safer-buffer\package.json
+101 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\semver\package.json
+102 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\send\package.json
+103 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\serve-static\package.json
+104 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\setprototypeof\package.json
+105 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\side-channel\package.json
+106 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\side-channel-list\package.json
+107 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\side-channel-map\package.json
+108 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\side-channel-weakmap\package.json
+109 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\sift\package.json
+110 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\sparse-bitfield\package.json
+111 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\statuses\package.json
+112 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\streamsearch\package.json
+113 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\string_decoder\package.json
+114 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\toidentifier\package.json
+115 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\tr46\package.json
+116 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\type-is\package.json
+117 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\typedarray\package.json
+118 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\unpipe\package.json
+119 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\util-deprecate\package.json
+120 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\uuid\package.json
+121 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\vary\package.json
+122 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\webidl-conversions\package.json
+123 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\whatwg-url\package.json
+124 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\wrappy\package.json
+125 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\xtend\package.json
+126 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\@mongodb-js\saslprep\package.json
+127 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\@types\webidl-conversions\package.json
+128 verbose installManyTop reading scoped package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\@types\whatwg-url\package.json
+129 info package.json busboy@1.6.0 No license field.
+130 info package.json latest@0.2.0 No license field.
+131 info package.json npm@2.15.12 Non-dependency in bundleDependencies: ansi-regex
+132 info package.json npm@2.15.12 Non-dependency in bundleDependencies: imurmurhash
+133 info package.json punycode@2.3.1 punycode is also the name of a node core module.
+134 info package.json streamsearch@1.1.0 No license field.
+135 info package.json string_decoder@1.3.0 string_decoder is also the name of a node core module.
+136 verbose readDependencies loading dependencies from c:\Users\mohit\Desktop\Zemuto-food\backend\package.json
+137 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\accepts\package.json
+138 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\append-field\package.json
+139 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\bcrypt\package.json
+140 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\bcryptjs\package.json
+141 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\body-parser\package.json
+142 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\bson\package.json
+143 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\buffer-equal-constant-time\package.json
+144 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\buffer-from\package.json
+145 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\busboy\package.json
+146 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\bytes\package.json
+147 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\call-bind-apply-helpers\package.json
+148 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\call-bound\package.json
+149 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\concat-stream\package.json
+150 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\content-disposition\package.json
+151 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\content-type\package.json
+152 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\cookie\package.json
+153 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\cookie-parser\package.json
+154 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\cookie-signature\package.json
+155 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\debug\package.json
+156 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\depd\package.json
+157 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\dotenv\package.json
+158 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\dunder-proto\package.json
+159 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\ecdsa-sig-formatter\package.json
+160 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\ee-first\package.json
+161 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\encodeurl\package.json
+162 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\es-define-property\package.json
+163 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\es-errors\package.json
+164 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\es-object-atoms\package.json
+165 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\escape-html\package.json
+166 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\etag\package.json
+167 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\express\package.json
+168 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\finalhandler\package.json
+169 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\forwarded\package.json
+170 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\fresh\package.json
+171 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\function-bind\package.json
+172 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\get-intrinsic\package.json
+173 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\get-proto\package.json
+174 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\gopd\package.json
+175 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\has-symbols\package.json
+176 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\hasown\package.json
+177 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\http-errors\package.json
+178 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\iconv-lite\package.json
+179 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\inherits\package.json
+180 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\ipaddr.js\package.json
+181 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\is-promise\package.json
+182 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\jsonwebtoken\package.json
+183 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\jwa\package.json
+184 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\jws\package.json
+185 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\kareem\package.json
+186 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\latest\package.json
+187 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.includes\package.json
+188 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isboolean\package.json
+189 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isinteger\package.json
+190 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isnumber\package.json
+191 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isplainobject\package.json
+192 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isstring\package.json
+193 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.once\package.json
+194 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\math-intrinsics\package.json
+195 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\media-typer\package.json
+196 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\memory-pager\package.json
+197 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\merge-descriptors\package.json
+198 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mime-db\package.json
+199 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mime-types\package.json
+200 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\minimist\package.json
+201 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mkdirp\package.json
+202 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mongodb\package.json
+203 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mongodb-connection-string-url\package.json
+204 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mongoose\package.json
+205 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mpath\package.json
+206 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mquery\package.json
+207 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\ms\package.json
+208 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\multer\package.json
+209 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\negotiator\package.json
+210 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\node-addon-api\package.json
+211 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\node-gyp-build\package.json
+212 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\npm\package.json
+213 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\object-assign\package.json
+214 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\object-inspect\package.json
+215 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\on-finished\package.json
+216 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\once\package.json
+217 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\parseurl\package.json
+218 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\path-to-regexp\package.json
+219 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\proxy-addr\package.json
+220 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\punycode\package.json
+221 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\qs\package.json
+222 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\range-parser\package.json
+223 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\raw-body\package.json
+224 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\readable-stream\package.json
+225 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\router\package.json
+226 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\safe-buffer\package.json
+227 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\safer-buffer\package.json
+228 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\semver\package.json
+229 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\send\package.json
+230 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\serve-static\package.json
+231 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\setprototypeof\package.json
+232 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\side-channel\package.json
+233 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\side-channel-list\package.json
+234 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\side-channel-map\package.json
+235 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\side-channel-weakmap\package.json
+236 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\sift\package.json
+237 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\sparse-bitfield\package.json
+238 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\statuses\package.json
+239 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\streamsearch\package.json
+240 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\string_decoder\package.json
+241 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\toidentifier\package.json
+242 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\tr46\package.json
+243 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\type-is\package.json
+244 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\typedarray\package.json
+245 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\unpipe\package.json
+246 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\util-deprecate\package.json
+247 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\uuid\package.json
+248 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\vary\package.json
+249 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\webidl-conversions\package.json
+250 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\whatwg-url\package.json
+251 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\wrappy\package.json
+252 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\xtend\package.json
+253 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\@mongodb-js\saslprep\package.json
+254 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\bcrypt\package.json
+255 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\bcrypt.cmd\package.json
+256 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\bcrypt.ps1\package.json
+257 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\latest\package.json
+258 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\latest.cmd\package.json
+259 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\latest.ps1\package.json
+260 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\mkdirp\package.json
+261 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\mkdirp.cmd\package.json
+262 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\mkdirp.ps1\package.json
+263 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\node-gyp-build\package.json
+264 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\node-gyp-build-optional\package.json
+265 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\node-gyp-build-optional.cmd\package.json
+266 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\node-gyp-build-optional.ps1\package.json
+267 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\node-gyp-build-test\package.json
+268 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\node-gyp-build-test.cmd\package.json
+269 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\node-gyp-build-test.ps1\package.json
+270 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\node-gyp-build.cmd\package.json
+271 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\node-gyp-build.ps1\package.json
+272 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\npm\package.json
+273 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\npm.cmd\package.json
+274 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\npm.ps1\package.json
+275 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\semver\package.json
+276 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\semver.cmd\package.json
+277 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\semver.ps1\package.json
+278 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\uuid\package.json
+279 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\uuid.cmd\package.json
+280 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\.bin\uuid.ps1\package.json
+281 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\@types\webidl-conversions\package.json
+282 verbose targetResolver reading package data from c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\@types\whatwg-url\package.json
+283 verbose already installed skipping bcryptjs@^3.0.2 c:\Users\mohit\Desktop\Zemuto-food\backend
+284 verbose already installed skipping cookie-parser@^1.4.7 c:\Users\mohit\Desktop\Zemuto-food\backend
+285 verbose already installed skipping dotenv@^17.2.3 c:\Users\mohit\Desktop\Zemuto-food\backend
+286 verbose already installed skipping express@^5.1.0 c:\Users\mohit\Desktop\Zemuto-food\backend
+287 verbose already installed skipping jsonwebtoken@^9.0.2 c:\Users\mohit\Desktop\Zemuto-food\backend
+288 verbose already installed skipping latest@^0.2.0 c:\Users\mohit\Desktop\Zemuto-food\backend
+289 verbose already installed skipping mongoose@^8.18.3 c:\Users\mohit\Desktop\Zemuto-food\backend
+290 verbose already installed skipping multer@^2.0.2 c:\Users\mohit\Desktop\Zemuto-food\backend
+291 verbose already installed skipping uuid@^8.3.2 c:\Users\mohit\Desktop\Zemuto-food\backend
+292 verbose already installed skipping bcrypt@^6.0.0 c:\Users\mohit\Desktop\Zemuto-food\backend
+293 silly install resolved []
+294 info build c:\Users\mohit\Desktop\Zemuto-food\backend
+295 info linkStuff backend@1.0.0
+296 silly linkStuff backend@1.0.0 has c:\Users\mohit\Desktop\Zemuto-food as its parent node_modules
+297 verbose linkBins backend@1.0.0
+298 verbose linkMans backend@1.0.0
+299 verbose rebuildBundles backend@1.0.0
+300 verbose rebuildBundles [
+300 verbose rebuildBundles   '.bin',
+300 verbose rebuildBundles   '.package-lock.json',
+300 verbose rebuildBundles   '@imagekit',
+300 verbose rebuildBundles   '@mongodb-js',
+300 verbose rebuildBundles   '@stablelib',
+300 verbose rebuildBundles   '@types',
+300 verbose rebuildBundles   'accepts',
+300 verbose rebuildBundles   'append-field',
+300 verbose rebuildBundles   'bcrypt',
+300 verbose rebuildBundles   'bcryptjs',
+300 verbose rebuildBundles   'body-parser',
+300 verbose rebuildBundles   'bson',
+300 verbose rebuildBundles   'buffer-equal-constant-time',
+300 verbose rebuildBundles   'buffer-from',
+300 verbose rebuildBundles   'busboy',
+300 verbose rebuildBundles   'bytes',
+300 verbose rebuildBundles   'call-bind-apply-helpers',
+300 verbose rebuildBundles   'call-bound',
+300 verbose rebuildBundles   'concat-stream',
+300 verbose rebuildBundles   'content-disposition',
+300 verbose rebuildBundles   'content-type',
+300 verbose rebuildBundles   'cookie',
+300 verbose rebuildBundles   'cookie-parser',
+300 verbose rebuildBundles   'cookie-signature',
+300 verbose rebuildBundles   'debug',
+300 verbose rebuildBundles   'depd',
+300 verbose rebuildBundles   'dotenv',
+300 verbose rebuildBundles   'dunder-proto',
+300 verbose rebuildBundles   'ecdsa-sig-formatter',
+300 verbose rebuildBundles   'ee-first',
+300 verbose rebuildBundles   'encodeurl',
+300 verbose rebuildBundles   'es-define-property',
+300 verbose rebuildBundles   'es-errors',
+300 verbose rebuildBundles   'es-object-atoms',
+300 verbose rebuildBundles   'escape-html',
+300 verbose rebuildBundles   'etag',
+300 verbose rebuildBundles   'express',
+300 verbose rebuildBundles   'finalhandler',
+300 verbose rebuildBundles   'forwarded',
+300 verbose rebuildBundles   'fresh',
+300 verbose rebuildBundles   'function-bind',
+300 verbose rebuildBundles   'get-intrinsic',
+300 verbose rebuildBundles   'get-proto',
+300 verbose rebuildBundles   'gopd',
+300 verbose rebuildBundles   'has-symbols',
+300 verbose rebuildBundles   'hasown',
+300 verbose rebuildBundles   'http-errors',
+300 verbose rebuildBundles   'iconv-lite',
+300 verbose rebuildBundles   'inherits',
+300 verbose rebuildBundles   'ipaddr.js',
+300 verbose rebuildBundles   'is-promise',
+300 verbose rebuildBundles   'jsonwebtoken',
+300 verbose rebuildBundles   'jwa',
+300 verbose rebuildBundles   'jws',
+300 verbose rebuildBundles   'kareem',
+300 verbose rebuildBundles   'latest',
+300 verbose rebuildBundles   'lodash.includes',
+300 verbose rebuildBundles   'lodash.isboolean',
+300 verbose rebuildBundles   'lodash.isinteger',
+300 verbose rebuildBundles   'lodash.isnumber',
+300 verbose rebuildBundles   'lodash.isplainobject',
+300 verbose rebuildBundles   'lodash.isstring',
+300 verbose rebuildBundles   'lodash.once',
+300 verbose rebuildBundles   'math-intrinsics',
+300 verbose rebuildBundles   'media-typer',
+300 verbose rebuildBundles   'memory-pager',
+300 verbose rebuildBundles   'merge-descriptors',
+300 verbose rebuildBundles   'mime-db',
+300 verbose rebuildBundles   'mime-types',
+300 verbose rebuildBundles   'minimist',
+300 verbose rebuildBundles   'mkdirp',
+300 verbose rebuildBundles   'mongodb',
+300 verbose rebuildBundles   'mongodb-connection-string-url',
+300 verbose rebuildBundles   'mongoose',
+300 verbose rebuildBundles   'mpath',
+300 verbose rebuildBundles   'mquery',
+300 verbose rebuildBundles   'ms',
+300 verbose rebuildBundles   'multer',
+300 verbose rebuildBundles   'negotiator',
+300 verbose rebuildBundles   'node-addon-api',
+300 verbose rebuildBundles   'node-gyp-build',
+300 verbose rebuildBundles   'npm',
+300 verbose rebuildBundles   'object-assign',
+300 verbose rebuildBundles   'object-inspect',
+300 verbose rebuildBundles   'on-finished',
+300 verbose rebuildBundles   'once',
+300 verbose rebuildBundles   'parseurl',
+300 verbose rebuildBundles   'path-to-regexp',
+300 verbose rebuildBundles   'proxy-addr',
+300 verbose rebuildBundles   'punycode',
+300 verbose rebuildBundles   'qs',
+300 verbose rebuildBundles   'range-parser',
+300 verbose rebuildBundles   'raw-body',
+300 verbose rebuildBundles   'readable-stream',
+300 verbose rebuildBundles   'router',
+300 verbose rebuildBundles   'safe-buffer',
+300 verbose rebuildBundles   'safer-buffer',
+300 verbose rebuildBundles   'semver',
+300 verbose rebuildBundles   'send',
+300 verbose rebuildBundles   'serve-static',
+300 verbose rebuildBundles   ... 22 more items
+300 verbose rebuildBundles ]
+301 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\accepts
+302 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\accepts
+303 info preinstall accepts@2.0.0
+304 info linkStuff accepts@2.0.0
+305 silly linkStuff accepts@2.0.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+306 verbose linkBins accepts@2.0.0
+307 verbose linkMans accepts@2.0.0
+308 verbose rebuildBundles accepts@2.0.0
+309 info install accepts@2.0.0
+310 info postinstall accepts@2.0.0
+311 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\append-field
+312 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\append-field
+313 info preinstall append-field@1.0.0
+314 info linkStuff append-field@1.0.0
+315 silly linkStuff append-field@1.0.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+316 verbose linkBins append-field@1.0.0
+317 verbose linkMans append-field@1.0.0
+318 verbose rebuildBundles append-field@1.0.0
+319 info install append-field@1.0.0
+320 info postinstall append-field@1.0.0
+321 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\body-parser
+322 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\body-parser
+323 info preinstall body-parser@2.2.0
+324 info linkStuff body-parser@2.2.0
+325 silly linkStuff body-parser@2.2.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+326 verbose linkBins body-parser@2.2.0
+327 verbose linkMans body-parser@2.2.0
+328 verbose rebuildBundles body-parser@2.2.0
+329 info install body-parser@2.2.0
+330 info postinstall body-parser@2.2.0
+331 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\bson
+332 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\bson
+333 info preinstall bson@6.10.4
+334 info linkStuff bson@6.10.4
+335 silly linkStuff bson@6.10.4 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+336 verbose linkBins bson@6.10.4
+337 verbose linkMans bson@6.10.4
+338 verbose rebuildBundles bson@6.10.4
+339 info install bson@6.10.4
+340 info postinstall bson@6.10.4
+341 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\buffer-equal-constant-time
+342 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\buffer-equal-constant-time
+343 info preinstall buffer-equal-constant-time@1.0.1
+344 info linkStuff buffer-equal-constant-time@1.0.1
+345 silly linkStuff buffer-equal-constant-time@1.0.1 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+346 verbose linkBins buffer-equal-constant-time@1.0.1
+347 verbose linkMans buffer-equal-constant-time@1.0.1
+348 verbose rebuildBundles buffer-equal-constant-time@1.0.1
+349 info install buffer-equal-constant-time@1.0.1
+350 info postinstall buffer-equal-constant-time@1.0.1
+351 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\buffer-from
+352 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\buffer-from
+353 info preinstall buffer-from@1.1.2
+354 info linkStuff buffer-from@1.1.2
+355 silly linkStuff buffer-from@1.1.2 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+356 verbose linkBins buffer-from@1.1.2
+357 verbose linkMans buffer-from@1.1.2
+358 verbose rebuildBundles buffer-from@1.1.2
+359 info install buffer-from@1.1.2
+360 info postinstall buffer-from@1.1.2
+361 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\busboy
+362 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\busboy
+363 info preinstall busboy@1.6.0
+364 info linkStuff busboy@1.6.0
+365 silly linkStuff busboy@1.6.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+366 verbose linkBins busboy@1.6.0
+367 verbose linkMans busboy@1.6.0
+368 verbose rebuildBundles busboy@1.6.0
+369 info install busboy@1.6.0
+370 info postinstall busboy@1.6.0
+371 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\bytes
+372 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\bytes
+373 info preinstall bytes@3.1.2
+374 info linkStuff bytes@3.1.2
+375 silly linkStuff bytes@3.1.2 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+376 verbose linkBins bytes@3.1.2
+377 verbose linkMans bytes@3.1.2
+378 verbose rebuildBundles bytes@3.1.2
+379 info install bytes@3.1.2
+380 info postinstall bytes@3.1.2
+381 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\call-bind-apply-helpers
+382 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\call-bind-apply-helpers
+383 info preinstall call-bind-apply-helpers@1.0.2
+384 info linkStuff call-bind-apply-helpers@1.0.2
+385 silly linkStuff call-bind-apply-helpers@1.0.2 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+386 verbose linkBins call-bind-apply-helpers@1.0.2
+387 verbose linkMans call-bind-apply-helpers@1.0.2
+388 verbose rebuildBundles call-bind-apply-helpers@1.0.2
+389 info install call-bind-apply-helpers@1.0.2
+390 info postinstall call-bind-apply-helpers@1.0.2
+391 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\call-bound
+392 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\call-bound
+393 info preinstall call-bound@1.0.4
+394 info linkStuff call-bound@1.0.4
+395 silly linkStuff call-bound@1.0.4 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+396 verbose linkBins call-bound@1.0.4
+397 verbose linkMans call-bound@1.0.4
+398 verbose rebuildBundles call-bound@1.0.4
+399 info install call-bound@1.0.4
+400 info postinstall call-bound@1.0.4
+401 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\concat-stream
+402 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\concat-stream
+403 info preinstall concat-stream@2.0.0
+404 info linkStuff concat-stream@2.0.0
+405 silly linkStuff concat-stream@2.0.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+406 verbose linkBins concat-stream@2.0.0
+407 verbose linkMans concat-stream@2.0.0
+408 verbose rebuildBundles concat-stream@2.0.0
+409 info install concat-stream@2.0.0
+410 info postinstall concat-stream@2.0.0
+411 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\content-disposition
+412 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\content-disposition
+413 info preinstall content-disposition@1.0.0
+414 info linkStuff content-disposition@1.0.0
+415 silly linkStuff content-disposition@1.0.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+416 verbose linkBins content-disposition@1.0.0
+417 verbose linkMans content-disposition@1.0.0
+418 verbose rebuildBundles content-disposition@1.0.0
+419 info install content-disposition@1.0.0
+420 info postinstall content-disposition@1.0.0
+421 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\content-type
+422 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\content-type
+423 info preinstall content-type@1.0.5
+424 info linkStuff content-type@1.0.5
+425 silly linkStuff content-type@1.0.5 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+426 verbose linkBins content-type@1.0.5
+427 verbose linkMans content-type@1.0.5
+428 verbose rebuildBundles content-type@1.0.5
+429 info install content-type@1.0.5
+430 info postinstall content-type@1.0.5
+431 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\cookie
+432 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\cookie
+433 info preinstall cookie@0.7.2
+434 info linkStuff cookie@0.7.2
+435 silly linkStuff cookie@0.7.2 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+436 verbose linkBins cookie@0.7.2
+437 verbose linkMans cookie@0.7.2
+438 verbose rebuildBundles cookie@0.7.2
+439 info install cookie@0.7.2
+440 info postinstall cookie@0.7.2
+441 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\cookie-signature
+442 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\cookie-signature
+443 info preinstall cookie-signature@1.2.2
+444 info linkStuff cookie-signature@1.2.2
+445 silly linkStuff cookie-signature@1.2.2 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+446 verbose linkBins cookie-signature@1.2.2
+447 verbose linkMans cookie-signature@1.2.2
+448 verbose rebuildBundles cookie-signature@1.2.2
+449 info install cookie-signature@1.2.2
+450 info postinstall cookie-signature@1.2.2
+451 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\debug
+452 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\debug
+453 info preinstall debug@4.4.3
+454 info linkStuff debug@4.4.3
+455 silly linkStuff debug@4.4.3 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+456 verbose linkBins debug@4.4.3
+457 verbose linkMans debug@4.4.3
+458 verbose rebuildBundles debug@4.4.3
+459 info install debug@4.4.3
+460 info postinstall debug@4.4.3
+461 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\depd
+462 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\depd
+463 info preinstall depd@2.0.0
+464 info linkStuff depd@2.0.0
+465 silly linkStuff depd@2.0.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+466 verbose linkBins depd@2.0.0
+467 verbose linkMans depd@2.0.0
+468 verbose rebuildBundles depd@2.0.0
+469 info install depd@2.0.0
+470 info postinstall depd@2.0.0
+471 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\dunder-proto
+472 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\dunder-proto
+473 info preinstall dunder-proto@1.0.1
+474 info linkStuff dunder-proto@1.0.1
+475 silly linkStuff dunder-proto@1.0.1 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+476 verbose linkBins dunder-proto@1.0.1
+477 verbose linkMans dunder-proto@1.0.1
+478 verbose rebuildBundles dunder-proto@1.0.1
+479 info install dunder-proto@1.0.1
+480 info postinstall dunder-proto@1.0.1
+481 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\ecdsa-sig-formatter
+482 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\ecdsa-sig-formatter
+483 info preinstall ecdsa-sig-formatter@1.0.11
+484 info linkStuff ecdsa-sig-formatter@1.0.11
+485 silly linkStuff ecdsa-sig-formatter@1.0.11 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+486 verbose linkBins ecdsa-sig-formatter@1.0.11
+487 verbose linkMans ecdsa-sig-formatter@1.0.11
+488 verbose rebuildBundles ecdsa-sig-formatter@1.0.11
+489 info install ecdsa-sig-formatter@1.0.11
+490 info postinstall ecdsa-sig-formatter@1.0.11
+491 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\ee-first
+492 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\ee-first
+493 info preinstall ee-first@1.1.1
+494 info linkStuff ee-first@1.1.1
+495 silly linkStuff ee-first@1.1.1 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+496 verbose linkBins ee-first@1.1.1
+497 verbose linkMans ee-first@1.1.1
+498 verbose rebuildBundles ee-first@1.1.1
+499 info install ee-first@1.1.1
+500 info postinstall ee-first@1.1.1
+501 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\encodeurl
+502 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\encodeurl
+503 info preinstall encodeurl@2.0.0
+504 info linkStuff encodeurl@2.0.0
+505 silly linkStuff encodeurl@2.0.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+506 verbose linkBins encodeurl@2.0.0
+507 verbose linkMans encodeurl@2.0.0
+508 verbose rebuildBundles encodeurl@2.0.0
+509 info install encodeurl@2.0.0
+510 info postinstall encodeurl@2.0.0
+511 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\es-define-property
+512 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\es-define-property
+513 info preinstall es-define-property@1.0.1
+514 info linkStuff es-define-property@1.0.1
+515 silly linkStuff es-define-property@1.0.1 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+516 verbose linkBins es-define-property@1.0.1
+517 verbose linkMans es-define-property@1.0.1
+518 verbose rebuildBundles es-define-property@1.0.1
+519 info install es-define-property@1.0.1
+520 info postinstall es-define-property@1.0.1
+521 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\es-errors
+522 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\es-errors
+523 info preinstall es-errors@1.3.0
+524 info linkStuff es-errors@1.3.0
+525 silly linkStuff es-errors@1.3.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+526 verbose linkBins es-errors@1.3.0
+527 verbose linkMans es-errors@1.3.0
+528 verbose rebuildBundles es-errors@1.3.0
+529 info install es-errors@1.3.0
+530 info postinstall es-errors@1.3.0
+531 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\es-object-atoms
+532 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\es-object-atoms
+533 info preinstall es-object-atoms@1.1.1
+534 info linkStuff es-object-atoms@1.1.1
+535 silly linkStuff es-object-atoms@1.1.1 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+536 verbose linkBins es-object-atoms@1.1.1
+537 verbose linkMans es-object-atoms@1.1.1
+538 verbose rebuildBundles es-object-atoms@1.1.1
+539 info install es-object-atoms@1.1.1
+540 info postinstall es-object-atoms@1.1.1
+541 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\escape-html
+542 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\escape-html
+543 info preinstall escape-html@1.0.3
+544 info linkStuff escape-html@1.0.3
+545 silly linkStuff escape-html@1.0.3 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+546 verbose linkBins escape-html@1.0.3
+547 verbose linkMans escape-html@1.0.3
+548 verbose rebuildBundles escape-html@1.0.3
+549 info install escape-html@1.0.3
+550 info postinstall escape-html@1.0.3
+551 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\etag
+552 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\etag
+553 info preinstall etag@1.8.1
+554 info linkStuff etag@1.8.1
+555 silly linkStuff etag@1.8.1 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+556 verbose linkBins etag@1.8.1
+557 verbose linkMans etag@1.8.1
+558 verbose rebuildBundles etag@1.8.1
+559 info install etag@1.8.1
+560 info postinstall etag@1.8.1
+561 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\finalhandler
+562 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\finalhandler
+563 info preinstall finalhandler@2.1.0
+564 info linkStuff finalhandler@2.1.0
+565 silly linkStuff finalhandler@2.1.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+566 verbose linkBins finalhandler@2.1.0
+567 verbose linkMans finalhandler@2.1.0
+568 verbose rebuildBundles finalhandler@2.1.0
+569 info install finalhandler@2.1.0
+570 info postinstall finalhandler@2.1.0
+571 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\forwarded
+572 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\forwarded
+573 info preinstall forwarded@0.2.0
+574 info linkStuff forwarded@0.2.0
+575 silly linkStuff forwarded@0.2.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+576 verbose linkBins forwarded@0.2.0
+577 verbose linkMans forwarded@0.2.0
+578 verbose rebuildBundles forwarded@0.2.0
+579 info install forwarded@0.2.0
+580 info postinstall forwarded@0.2.0
+581 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\fresh
+582 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\fresh
+583 info preinstall fresh@2.0.0
+584 info linkStuff fresh@2.0.0
+585 silly linkStuff fresh@2.0.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+586 verbose linkBins fresh@2.0.0
+587 verbose linkMans fresh@2.0.0
+588 verbose rebuildBundles fresh@2.0.0
+589 info install fresh@2.0.0
+590 info postinstall fresh@2.0.0
+591 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\function-bind
+592 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\function-bind
+593 info preinstall function-bind@1.1.2
+594 info linkStuff function-bind@1.1.2
+595 silly linkStuff function-bind@1.1.2 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+596 verbose linkBins function-bind@1.1.2
+597 verbose linkMans function-bind@1.1.2
+598 verbose rebuildBundles function-bind@1.1.2
+599 info install function-bind@1.1.2
+600 info postinstall function-bind@1.1.2
+601 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\get-intrinsic
+602 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\get-intrinsic
+603 info preinstall get-intrinsic@1.3.0
+604 info linkStuff get-intrinsic@1.3.0
+605 silly linkStuff get-intrinsic@1.3.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+606 verbose linkBins get-intrinsic@1.3.0
+607 verbose linkMans get-intrinsic@1.3.0
+608 verbose rebuildBundles get-intrinsic@1.3.0
+609 info install get-intrinsic@1.3.0
+610 info postinstall get-intrinsic@1.3.0
+611 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\get-proto
+612 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\get-proto
+613 info preinstall get-proto@1.0.1
+614 info linkStuff get-proto@1.0.1
+615 silly linkStuff get-proto@1.0.1 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+616 verbose linkBins get-proto@1.0.1
+617 verbose linkMans get-proto@1.0.1
+618 verbose rebuildBundles get-proto@1.0.1
+619 info install get-proto@1.0.1
+620 info postinstall get-proto@1.0.1
+621 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\gopd
+622 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\gopd
+623 info preinstall gopd@1.2.0
+624 info linkStuff gopd@1.2.0
+625 silly linkStuff gopd@1.2.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+626 verbose linkBins gopd@1.2.0
+627 verbose linkMans gopd@1.2.0
+628 verbose rebuildBundles gopd@1.2.0
+629 info install gopd@1.2.0
+630 info postinstall gopd@1.2.0
+631 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\has-symbols
+632 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\has-symbols
+633 info preinstall has-symbols@1.1.0
+634 info linkStuff has-symbols@1.1.0
+635 silly linkStuff has-symbols@1.1.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+636 verbose linkBins has-symbols@1.1.0
+637 verbose linkMans has-symbols@1.1.0
+638 verbose rebuildBundles has-symbols@1.1.0
+639 info install has-symbols@1.1.0
+640 info postinstall has-symbols@1.1.0
+641 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\hasown
+642 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\hasown
+643 info preinstall hasown@2.0.2
+644 info linkStuff hasown@2.0.2
+645 silly linkStuff hasown@2.0.2 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+646 verbose linkBins hasown@2.0.2
+647 verbose linkMans hasown@2.0.2
+648 verbose rebuildBundles hasown@2.0.2
+649 info install hasown@2.0.2
+650 info postinstall hasown@2.0.2
+651 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\http-errors
+652 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\http-errors
+653 info preinstall http-errors@2.0.0
+654 info linkStuff http-errors@2.0.0
+655 silly linkStuff http-errors@2.0.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+656 verbose linkBins http-errors@2.0.0
+657 verbose linkMans http-errors@2.0.0
+658 verbose rebuildBundles http-errors@2.0.0
+659 verbose rebuildBundles [ 'statuses' ]
+660 info install http-errors@2.0.0
+661 info postinstall http-errors@2.0.0
+662 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\iconv-lite
+663 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\iconv-lite
+664 info preinstall iconv-lite@0.6.3
+665 info linkStuff iconv-lite@0.6.3
+666 silly linkStuff iconv-lite@0.6.3 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+667 verbose linkBins iconv-lite@0.6.3
+668 verbose linkMans iconv-lite@0.6.3
+669 verbose rebuildBundles iconv-lite@0.6.3
+670 info install iconv-lite@0.6.3
+671 info postinstall iconv-lite@0.6.3
+672 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\inherits
+673 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\inherits
+674 info preinstall inherits@2.0.4
+675 info linkStuff inherits@2.0.4
+676 silly linkStuff inherits@2.0.4 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+677 verbose linkBins inherits@2.0.4
+678 verbose linkMans inherits@2.0.4
+679 verbose rebuildBundles inherits@2.0.4
+680 info install inherits@2.0.4
+681 info postinstall inherits@2.0.4
+682 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\ipaddr.js
+683 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\ipaddr.js
+684 info preinstall ipaddr.js@1.9.1
+685 info linkStuff ipaddr.js@1.9.1
+686 silly linkStuff ipaddr.js@1.9.1 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+687 verbose linkBins ipaddr.js@1.9.1
+688 verbose linkMans ipaddr.js@1.9.1
+689 verbose rebuildBundles ipaddr.js@1.9.1
+690 info install ipaddr.js@1.9.1
+691 info postinstall ipaddr.js@1.9.1
+692 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\is-promise
+693 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\is-promise
+694 info preinstall is-promise@4.0.0
+695 info linkStuff is-promise@4.0.0
+696 silly linkStuff is-promise@4.0.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+697 verbose linkBins is-promise@4.0.0
+698 verbose linkMans is-promise@4.0.0
+699 verbose rebuildBundles is-promise@4.0.0
+700 info install is-promise@4.0.0
+701 info postinstall is-promise@4.0.0
+702 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\jwa
+703 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\jwa
+704 info preinstall jwa@1.4.2
+705 info linkStuff jwa@1.4.2
+706 silly linkStuff jwa@1.4.2 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+707 verbose linkBins jwa@1.4.2
+708 verbose linkMans jwa@1.4.2
+709 verbose rebuildBundles jwa@1.4.2
+710 info install jwa@1.4.2
+711 info postinstall jwa@1.4.2
+712 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\jws
+713 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\jws
+714 info preinstall jws@3.2.2
+715 info linkStuff jws@3.2.2
+716 silly linkStuff jws@3.2.2 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+717 verbose linkBins jws@3.2.2
+718 verbose linkMans jws@3.2.2
+719 verbose rebuildBundles jws@3.2.2
+720 info install jws@3.2.2
+721 info postinstall jws@3.2.2
+722 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\kareem
+723 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\kareem
+724 info preinstall kareem@2.6.3
+725 info linkStuff kareem@2.6.3
+726 silly linkStuff kareem@2.6.3 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+727 verbose linkBins kareem@2.6.3
+728 verbose linkMans kareem@2.6.3
+729 verbose rebuildBundles kareem@2.6.3
+730 info install kareem@2.6.3
+731 info postinstall kareem@2.6.3
+732 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.includes
+733 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.includes
+734 info preinstall lodash.includes@4.3.0
+735 info linkStuff lodash.includes@4.3.0
+736 silly linkStuff lodash.includes@4.3.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+737 verbose linkBins lodash.includes@4.3.0
+738 verbose linkMans lodash.includes@4.3.0
+739 verbose rebuildBundles lodash.includes@4.3.0
+740 info install lodash.includes@4.3.0
+741 info postinstall lodash.includes@4.3.0
+742 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isboolean
+743 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isboolean
+744 info preinstall lodash.isboolean@3.0.3
+745 info linkStuff lodash.isboolean@3.0.3
+746 silly linkStuff lodash.isboolean@3.0.3 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+747 verbose linkBins lodash.isboolean@3.0.3
+748 verbose linkMans lodash.isboolean@3.0.3
+749 verbose rebuildBundles lodash.isboolean@3.0.3
+750 info install lodash.isboolean@3.0.3
+751 info postinstall lodash.isboolean@3.0.3
+752 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isinteger
+753 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isinteger
+754 info preinstall lodash.isinteger@4.0.4
+755 info linkStuff lodash.isinteger@4.0.4
+756 silly linkStuff lodash.isinteger@4.0.4 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+757 verbose linkBins lodash.isinteger@4.0.4
+758 verbose linkMans lodash.isinteger@4.0.4
+759 verbose rebuildBundles lodash.isinteger@4.0.4
+760 info install lodash.isinteger@4.0.4
+761 info postinstall lodash.isinteger@4.0.4
+762 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isnumber
+763 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isnumber
+764 info preinstall lodash.isnumber@3.0.3
+765 info linkStuff lodash.isnumber@3.0.3
+766 silly linkStuff lodash.isnumber@3.0.3 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+767 verbose linkBins lodash.isnumber@3.0.3
+768 verbose linkMans lodash.isnumber@3.0.3
+769 verbose rebuildBundles lodash.isnumber@3.0.3
+770 info install lodash.isnumber@3.0.3
+771 info postinstall lodash.isnumber@3.0.3
+772 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isplainobject
+773 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isplainobject
+774 info preinstall lodash.isplainobject@4.0.6
+775 info linkStuff lodash.isplainobject@4.0.6
+776 silly linkStuff lodash.isplainobject@4.0.6 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+777 verbose linkBins lodash.isplainobject@4.0.6
+778 verbose linkMans lodash.isplainobject@4.0.6
+779 verbose rebuildBundles lodash.isplainobject@4.0.6
+780 info install lodash.isplainobject@4.0.6
+781 info postinstall lodash.isplainobject@4.0.6
+782 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isstring
+783 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.isstring
+784 info preinstall lodash.isstring@4.0.1
+785 info linkStuff lodash.isstring@4.0.1
+786 silly linkStuff lodash.isstring@4.0.1 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+787 verbose linkBins lodash.isstring@4.0.1
+788 verbose linkMans lodash.isstring@4.0.1
+789 verbose rebuildBundles lodash.isstring@4.0.1
+790 info install lodash.isstring@4.0.1
+791 info postinstall lodash.isstring@4.0.1
+792 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.once
+793 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\lodash.once
+794 info preinstall lodash.once@4.1.1
+795 info linkStuff lodash.once@4.1.1
+796 silly linkStuff lodash.once@4.1.1 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+797 verbose linkBins lodash.once@4.1.1
+798 verbose linkMans lodash.once@4.1.1
+799 verbose rebuildBundles lodash.once@4.1.1
+800 info install lodash.once@4.1.1
+801 info postinstall lodash.once@4.1.1
+802 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\math-intrinsics
+803 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\math-intrinsics
+804 info preinstall math-intrinsics@1.1.0
+805 info linkStuff math-intrinsics@1.1.0
+806 silly linkStuff math-intrinsics@1.1.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+807 verbose linkBins math-intrinsics@1.1.0
+808 verbose linkMans math-intrinsics@1.1.0
+809 verbose rebuildBundles math-intrinsics@1.1.0
+810 info install math-intrinsics@1.1.0
+811 info postinstall math-intrinsics@1.1.0
+812 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\media-typer
+813 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\media-typer
+814 info preinstall media-typer@1.1.0
+815 info linkStuff media-typer@1.1.0
+816 silly linkStuff media-typer@1.1.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+817 verbose linkBins media-typer@1.1.0
+818 verbose linkMans media-typer@1.1.0
+819 verbose rebuildBundles media-typer@1.1.0
+820 info install media-typer@1.1.0
+821 info postinstall media-typer@1.1.0
+822 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\memory-pager
+823 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\memory-pager
+824 info preinstall memory-pager@1.5.0
+825 info linkStuff memory-pager@1.5.0
+826 silly linkStuff memory-pager@1.5.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+827 verbose linkBins memory-pager@1.5.0
+828 verbose linkMans memory-pager@1.5.0
+829 verbose rebuildBundles memory-pager@1.5.0
+830 info install memory-pager@1.5.0
+831 info postinstall memory-pager@1.5.0
+832 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\merge-descriptors
+833 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\merge-descriptors
+834 info preinstall merge-descriptors@2.0.0
+835 info linkStuff merge-descriptors@2.0.0
+836 silly linkStuff merge-descriptors@2.0.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+837 verbose linkBins merge-descriptors@2.0.0
+838 verbose linkMans merge-descriptors@2.0.0
+839 verbose rebuildBundles merge-descriptors@2.0.0
+840 info install merge-descriptors@2.0.0
+841 info postinstall merge-descriptors@2.0.0
+842 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mime-db
+843 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mime-db
+844 info preinstall mime-db@1.54.0
+845 info linkStuff mime-db@1.54.0
+846 silly linkStuff mime-db@1.54.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+847 verbose linkBins mime-db@1.54.0
+848 verbose linkMans mime-db@1.54.0
+849 verbose rebuildBundles mime-db@1.54.0
+850 info install mime-db@1.54.0
+851 info postinstall mime-db@1.54.0
+852 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mime-types
+853 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mime-types
+854 info preinstall mime-types@3.0.1
+855 info linkStuff mime-types@3.0.1
+856 silly linkStuff mime-types@3.0.1 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+857 verbose linkBins mime-types@3.0.1
+858 verbose linkMans mime-types@3.0.1
+859 verbose rebuildBundles mime-types@3.0.1
+860 info install mime-types@3.0.1
+861 info postinstall mime-types@3.0.1
+862 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\minimist
+863 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\minimist
+864 info preinstall minimist@1.2.8
+865 info linkStuff minimist@1.2.8
+866 silly linkStuff minimist@1.2.8 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+867 verbose linkBins minimist@1.2.8
+868 verbose linkMans minimist@1.2.8
+869 verbose rebuildBundles minimist@1.2.8
+870 info install minimist@1.2.8
+871 info postinstall minimist@1.2.8
+872 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mkdirp
+873 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mkdirp
+874 info preinstall mkdirp@0.5.6
+875 info linkStuff mkdirp@0.5.6
+876 silly linkStuff mkdirp@0.5.6 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+877 verbose linkBins mkdirp@0.5.6
+878 verbose link bins [
+878 verbose link bins   { mkdirp: 'bin/cmd.js' },
+878 verbose link bins   'c:\\Users\\mohit\\Desktop\\Zemuto-food\\backend\\node_modules\\.bin',
+878 verbose link bins   false
+878 verbose link bins ]
+879 verbose linkMans mkdirp@0.5.6
+880 verbose rebuildBundles mkdirp@0.5.6
+881 info install mkdirp@0.5.6
+882 info postinstall mkdirp@0.5.6
+883 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mongodb
+884 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mongodb
+885 info preinstall mongodb@6.18.0
+886 info linkStuff mongodb@6.18.0
+887 silly linkStuff mongodb@6.18.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+888 verbose linkBins mongodb@6.18.0
+889 verbose linkMans mongodb@6.18.0
+890 verbose rebuildBundles mongodb@6.18.0
+891 info install mongodb@6.18.0
+892 info postinstall mongodb@6.18.0
+893 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mongodb-connection-string-url
+894 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mongodb-connection-string-url
+895 info preinstall mongodb-connection-string-url@3.0.2
+896 info linkStuff mongodb-connection-string-url@3.0.2
+897 silly linkStuff mongodb-connection-string-url@3.0.2 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+898 verbose linkBins mongodb-connection-string-url@3.0.2
+899 verbose linkMans mongodb-connection-string-url@3.0.2
+900 verbose rebuildBundles mongodb-connection-string-url@3.0.2
+901 info install mongodb-connection-string-url@3.0.2
+902 info postinstall mongodb-connection-string-url@3.0.2
+903 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mpath
+904 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mpath
+905 info preinstall mpath@0.9.0
+906 info linkStuff mpath@0.9.0
+907 silly linkStuff mpath@0.9.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+908 verbose linkBins mpath@0.9.0
+909 verbose linkMans mpath@0.9.0
+910 verbose rebuildBundles mpath@0.9.0
+911 info install mpath@0.9.0
+912 info postinstall mpath@0.9.0
+913 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mquery
+914 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\mquery
+915 info preinstall mquery@5.0.0
+916 info linkStuff mquery@5.0.0
+917 silly linkStuff mquery@5.0.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+918 verbose linkBins mquery@5.0.0
+919 verbose linkMans mquery@5.0.0
+920 verbose rebuildBundles mquery@5.0.0
+921 info install mquery@5.0.0
+922 info postinstall mquery@5.0.0
+923 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\ms
+924 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\ms
+925 info preinstall ms@2.1.3
+926 info linkStuff ms@2.1.3
+927 silly linkStuff ms@2.1.3 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+928 verbose linkBins ms@2.1.3
+929 verbose linkMans ms@2.1.3
+930 verbose rebuildBundles ms@2.1.3
+931 info install ms@2.1.3
+932 info postinstall ms@2.1.3
+933 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\negotiator
+934 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\negotiator
+935 info preinstall negotiator@1.0.0
+936 info linkStuff negotiator@1.0.0
+937 silly linkStuff negotiator@1.0.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+938 verbose linkBins negotiator@1.0.0
+939 verbose linkMans negotiator@1.0.0
+940 verbose rebuildBundles negotiator@1.0.0
+941 info install negotiator@1.0.0
+942 info postinstall negotiator@1.0.0
+943 verbose rebuild bundle c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\node-addon-api
+944 info build c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\node-addon-api
+945 info preinstall node-addon-api@8.5.0
+946 info linkStuff node-addon-api@8.5.0
+947 silly linkStuff node-addon-api@8.5.0 has c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules as its parent node_modules
+948 verbose linkBins node-addon-api@8.5.0
+949 verbose linkMans node-addon-api@8.5.0
+950 verbose rebuildBundles node-addon-api@8.5.0
+951 info install node-addon-api@8.5.0
+952 verbose unsafe-perm in lifecycle true
+953 info node-addon-api@8.5.0 Failed to exec install script
+954 verbose stack Error: node-addon-api@8.5.0 install: `node-gyp rebuild`
+954 verbose stack Exit status 1
+954 verbose stack     at EventEmitter.<anonymous> (c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\npm\lib\utils\lifecycle.js:217:16)
+954 verbose stack     at EventEmitter.emit (node:events:518:28)
+954 verbose stack     at ChildProcess.<anonymous> (c:\Users\mohit\Desktop\Zemuto-food\backend\node_modules\npm\lib\utils\spawn.js:24:14)
+954 verbose stack     at ChildProcess.emit (node:events:518:28)
+954 verbose stack     at maybeClose (node:internal/child_process:1105:16)
+954 verbose stack     at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+955 verbose pkgid node-addon-api@8.5.0
+956 verbose cwd c:\Users\mohit\Desktop\Zemuto-food\backend
+957 error Windows_NT 10.0.26100
+958 error argv "C:\\Program Files\\nodejs\\node.exe" "c:\\Users\\mohit\\Desktop\\Zemuto-food\\backend\\node_modules\\npm\\bin\\npm-cli.js" "install" "--package-lock-only"
+959 error node v20.11.0
+960 error npm  v2.15.12
+961 error code ELIFECYCLE
+962 error node-addon-api@8.5.0 install: `node-gyp rebuild`
+962 error Exit status 1
+963 error Failed at the node-addon-api@8.5.0 install script 'node-gyp rebuild'.
+963 error This is most likely a problem with the node-addon-api package,
+963 error not with npm itself.
+963 error Tell the author that this fails on your system:
+963 error     node-gyp rebuild
+963 error You can get information on how to open an issue for this project with:
+963 error     npm bugs node-addon-api
+963 error Or if that isn't available, you can get their info via:
+963 error
+963 error     npm owner ls node-addon-api
+963 error There is likely additional logging output above.
+964 verbose exit [ 1, true ]

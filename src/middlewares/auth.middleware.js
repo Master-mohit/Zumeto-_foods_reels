@@ -2,7 +2,7 @@ const foodpartnerModel = require("../models/foodPatner.model");
 const jwt = require("jsonwebtoken");
 
 async function authFoodPartnerMiddleware(req, res, next){
-    const token = res.cookies.token;
+    const token = req.cookies?.token;
 
     if(!token){
        return res.status(401).json({
