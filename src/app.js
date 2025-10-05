@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser');
 const authRoute = require('./routes/auth.route');
 const foodRoute = require('./routes/food.routes');
 const app = express();
-require('dotenv').config();
+// require('dotenv').config();
 app.use(express.json());  //req.body me ye data lakr deta h or redable banata h
 app.use(cookieParser());
 
